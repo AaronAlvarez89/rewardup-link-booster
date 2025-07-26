@@ -5,6 +5,7 @@ import HowItWorks from "./HowItWorks";
 import TestimonialsSection from "./TestimonialsSection";
 import CTASection from "./CTASection";
 import Footer from "./Footer";
+import SocialProofNotification from "./SocialProofNotification";
 import { Badge } from "@/components/ui/badge";
 import { Shield } from "lucide-react";
 
@@ -67,6 +68,9 @@ const TargetRewardsLanding = () => {
 
       {/* Footer */}
       <Footer />
+      
+      {/* Social Proof Notifications */}
+      <SocialProofNotification />
     </div>
   );
 };
