@@ -17,16 +17,23 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Target Brand Colors */
+    --primary: 0 75% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 0 80% 45%;
+    
+    /* Target Red Variations */
+    --target-red: 0 75% 50%;
+    --target-red-dark: 0 80% 40%;
+    --target-red-light: 0 60% 95%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted-foreground: 115 5% 45%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 0 0% 96%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;

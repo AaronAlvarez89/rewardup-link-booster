@@ -26,7 +26,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
+				},
+				'target-red': {
+					DEFAULT: 'hsl(var(--target-red))',
+					dark: 'hsl(var(--target-red-dark))',
+					light: 'hsl(var(--target-red-light))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
